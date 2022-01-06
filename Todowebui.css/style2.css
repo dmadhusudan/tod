@@ -1,0 +1,126 @@
+body
+{
+    margin: 0;
+}
+
+.outer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+.main1
+{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    gap: 20px;
+}
+.hr
+{
+    width: 200px;
+    border-top: 2px solid gray;
+
+
+}
+.trip
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.main2
+{ 
+    width: 300px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.leftarrow
+{
+    background-color: orangered;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 7px;
+    box-sizing: border-box;
+}
+.back
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: gray;
+}
+
+.main3
+{
+    width:350px;
+    height: 400px;
+    border: 2px solid orangered;
+    border-radius: 12px;
+    box-shadow: 3px 5px 7px gray;
+    text-align: center;
+    margin-top: 30px;
+}
+.trip2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: orangered;
+}
+.hr2
+{
+    margin-left: 90px;
+}
+.completed2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+    text-decoration: line-through;
+}
+.input2
+ {
+     width: 17px;
+     height: 17px;
+     margin-left: -45px;
+ }
+ .pending2
+ {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 22px;
+     font-weight: 400;
+     color: black;
+    }
+    .font
+    {
+       width: 40px;
+       height: 40px;
+        background-color: orangered;
+       text-align: center;
+       padding-top: 10px;
+       box-sizing: border-box;
+       color: white;
+       border-radius: 50%;
+       font-size: 20px;
+       position: absolute;
+       bottom: 110px;
+       right: 610px;
+       z-index: 10;
+    }
